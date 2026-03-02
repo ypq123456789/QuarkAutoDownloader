@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://github.com/ypq123456789/quark-auto-save-downloader/releases)
 
-<img src="https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/main.png" width="700" alt="主界面截图">
+<img src="https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/监控面板.png" width="700" alt="监控面板截图">
 
 </div>
 
@@ -37,7 +37,19 @@
 
 ---
 
-## 🚀 快速开始
+## � 软件截图
+
+| 监控面板 | 任务管理 |
+|----------|----------|
+| ![监控面板](https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/监控面板.png) | ![任务管理](https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/任务管理.png) |
+
+| 设置 | 关于 |
+|------|------|
+| ![设置](https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/设置.png) | ![关于](https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/关于.png) |
+
+---
+
+## �🚀 快速开始
 
 ### 第一步：获取 Cookie
 
