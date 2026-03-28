@@ -4,10 +4,10 @@
 
 **夸克网盘自动追更下载工具，自动监测分享链接更新并下载到本地**
 
-[![Release](https://img.shields.io/github/v/release/ypq123456789/quark-auto-save-downloader?style=for-the-badge&color=blue)](https://github.com/ypq123456789/quark-auto-save-downloader/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/ypq123456789/quark-auto-save-downloader/total?style=for-the-badge&color=green)](https://github.com/ypq123456789/quark-auto-save-downloader/releases)
+[![官网](https://img.shields.io/badge/官网-立即访问-2563eb?style=for-the-badge)](https://quark.bacon123.eu.org/)
+[![下载](https://img.shields.io/badge/下载-Windows-orange?style=for-the-badge&logo=cloudflare)](https://download.script.cool/latest/QuarkAutoDownloader-latest.exe)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://github.com/ypq123456789/quark-auto-save-downloader/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://download.script.cool/latest/QuarkAutoDownloader-latest.exe)
 
 <img src="https://download.script.cool/screenshots/dashboard.png" width="700" alt="追更宝监控面板截图">
 
@@ -45,9 +45,9 @@
 
 ## 📥 下载安装
 
-前往 [Releases 页面](https://github.com/ypq123456789/quark-auto-save-downloader/releases/latest) 下载最新版 `QuarkAutoDownloader-vX.X.X.exe`，双击即可运行，**无需安装任何环境**。
+直接下载最新版：[QuarkAutoDownloader-latest.exe](https://download.script.cool/latest/QuarkAutoDownloader-latest.exe)，双击即可运行，**无需安装任何环境**。
 
-> 🌐 也可从国内代理下载页获取最新版（免翻墙，下载速度通常更快）：https://quark.bacon123.eu.org/
+> 🌐 也可从官网获取最新版与更新说明（免翻墙，下载速度通常更快）：https://quark.bacon123.eu.org/
 >
 > 💡 配置文件默认保存在 `%APPDATA%\QuarkDownloader\config.json`。若检测到 exe 同目录下有旧版 `config.json`，程序会在首次启动时自动迁移并保留备份。
 >
