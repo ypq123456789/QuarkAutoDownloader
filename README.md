@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://github.com/ypq123456789/quark-auto-save-downloader/releases)
 
-<img src="screenshots/监控面板.png" width="700" alt="追更宝监控面板截图">
+<img src="https://cdn.nodeimage.com/i/dB2v6NGwG36rH9JaTQauGtKdHDA4rbfy.png" width="700" alt="追更宝监控面板截图">
 
 </div>
 
@@ -57,15 +57,15 @@
 
 ## 📸 软件截图
 
-> 当前仓库展示截图已切换为本地 `screenshots/` 素材，方便和 README 一起同步更新。
+> README 展示优先使用图床 CDN 直链；仓库内 `screenshots/` 继续保留同版素材备份，方便后续替换与校对。
 
 | 监控面板 | 任务管理 |
 |----------|----------|
-| ![追更宝监控面板](screenshots/监控面板.png) | ![追更宝任务管理](screenshots/任务管理.png) |
+| ![追更宝监控面板](https://cdn.nodeimage.com/i/dB2v6NGwG36rH9JaTQauGtKdHDA4rbfy.png) | ![追更宝任务管理](https://cdn.nodeimage.com/i/wjvYm4B86rXmE5n9byiQ2iyclX0XJqbK.png) |
 
 | 设置 | 关于 |
 |------|------|
-| ![追更宝设置](screenshots/设置.png) | ![追更宝关于](screenshots/关于.png) |
+| ![追更宝设置](https://cdn.nodeimage.com/i/BQRXocv0CP4AO4tXolpvGm5DYUlAPUYH.png) | ![追更宝关于](https://cdn.nodeimage.com/i/r7lAwPAv625xkRyROO7tfdRBxqaROXX4.png) |
 
 ---
 
