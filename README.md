@@ -1,15 +1,15 @@
 ﻿<div align="center">
 
-# 🚀 夸克网盘自动下载器
+# 🚀 追更宝
 
-**自动监测夸克网盘分享链接更新，发现新文件自动下载到本地**
+**夸克网盘自动追更下载工具，自动监测分享链接更新并下载到本地**
 
 [![Release](https://img.shields.io/github/v/release/ypq123456789/quark-auto-save-downloader?style=for-the-badge&color=blue)](https://github.com/ypq123456789/quark-auto-save-downloader/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/ypq123456789/quark-auto-save-downloader/total?style=for-the-badge&color=green)](https://github.com/ypq123456789/quark-auto-save-downloader/releases)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://github.com/ypq123456789/quark-auto-save-downloader/releases)
 
-<img src="https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/监控面板.png" width="700" alt="监控面板截图">
+<img src="screenshots/监控面板.png" width="700" alt="追更宝监控面板截图">
 
 </div>
 
@@ -31,7 +31,7 @@
 - ⚡ **多线程下载** — 8 线程并发分片下载，充分利用带宽
 - 📊 **实时进度** — 下载速度、进度条、剩余时间一目了然
 - 🔔 **系统通知** — 新文件下载完成后弹出 Windows 通知，点击通知打开下载文件夹
-- � **追更模式** — 只保存当天更新文件，自动清理旧文件，节省磁盘空间
+- 🗑️ **智能删除** — 优先按 PotPlayer 播放进度在看到 80% 后自动清理；不想安装播放器时也可按天数自动删除旧文件
 - 📦 **全存模式** — 将链接内所有文件保存到独立子文件夹，适合一次性归档
 - 📋 **可视化任务管理** — 双击编辑、右键菜单、显示运行模式，操作直观
 - 🔄 **远程同步** — 支持从远程 URL 自动同步任务配置
@@ -55,42 +55,38 @@
 
 ---
 
-## � 软件截图
+## 📸 软件截图
+
+> 当前仓库展示截图已切换为本地 `screenshots/` 素材，方便和 README 一起同步更新。
 
 | 监控面板 | 任务管理 |
 |----------|----------|
-| ![监控面板](https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/监控面板.png) | ![任务管理](https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/任务管理.png) |
+| ![追更宝监控面板](screenshots/监控面板.png) | ![追更宝任务管理](screenshots/任务管理.png) |
 
 | 设置 | 关于 |
 |------|------|
-| ![设置](https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/设置.png) | ![关于](https://raw.githubusercontent.com/ypq123456789/quark-auto-save-downloader/main/screenshots/关于.png) |
+| ![追更宝设置](screenshots/设置.png) | ![追更宝关于](screenshots/关于.png) |
 
 ---
 
-## �🚀 快速开始
+## 🚀 快速开始
 
-### 第一步：获取 Cookie
+### 第一步：扫码登录获取 Cookie
 
-Cookie 是程序访问你夸克网盘账号的凭证，获取方法：
-
-1. 打开浏览器，访问 [pan.quark.cn](https://pan.quark.cn) 并**登录账号**
-2. 按 `F12` 打开开发者工具
-3. 切换到 **`Network`（网络）** 标签
-4. 在页面上随便点击一下，等左侧出现请求列表
-5. 点击任意一条请求，在右侧找到 **`Request Headers`** → **`Cookie`** 字段
-6. 复制完整的 Cookie 值（很长，全部复制）
-
-### 第二步：填写 Cookie 并验证
+Cookie 是程序访问你夸克网盘账号的凭证。当前推荐的新流程不需要 F12 手动复制：
 
 1. 打开软件，进入 **⚙️ 设置** 页面
-2. 将 Cookie 粘贴到「账号设置」输入框
-3. 点击「**验证 Cookie**」，显示绑定的账号名即为成功
+2. 点击「**一键获取 Cookie**」
+3. 在弹出的登录页里用夸克 App 扫码登录
+4. 等待 Cookie 自动回填，并点击「**保存设置**」
+5. 如需看图文步骤，可直接点击软件里的「**登录教程**」按钮
 
-### 第三步：添加监测任务
+### 第二步：添加监测任务
 
-进入 **📋 任务管理** 页面，点击「**添加任务**」，填写任务名和分享链接，点「确定」保存。
+进入 **📋 任务管理** 页面，点击「**添加任务**」，输入任务名称后可自动联想中转资源，点「确定」保存。
+如需看图文步骤，可直接点击任务弹窗里的「**联想教程**」按钮。
 
-### 第四步：启动监测
+### 第三步：启动监测
 
 进入 **📡 监控面板**，点击「**启动监测**」，程序立即开始第一次检测，之后按设置的间隔自动运行。
 
@@ -102,8 +98,10 @@ Cookie 是程序访问你夸克网盘账号的凭证，获取方法：
 
 | 配置项 | 说明 |
 |--------|------|
-| **Cookie** | 夸克网盘账号的登录凭证，用于下载文件。Cookie 通常 30 天左右过期，过期后需重新获取并更新 |
+| **Cookie** | 夸克网盘账号的登录凭证，用于下载文件。推荐直接用「一键获取 Cookie」扫码登录自动回填，过期后重新扫码即可 |
 | **验证 Cookie** | 点击后连接夸克服务器验证 Cookie 有效性，并显示绑定的账号昵称 |
+| **登录教程** | 打开文档站里“扫码登录获取 Cookie（新流程）”对应教程 |
+| **联想教程** | 打开文档站里“任务名称联想怎么用”对应教程 |
 
 ### 下载设置
 
@@ -125,7 +123,7 @@ Cookie 是程序访问你夸克网盘账号的凭证，获取方法：
 |--------|------|
 | **任务名称** | 任务的标识名，会出现在下载文件名中（格式：`日期-任务名-文件名`） |
 | **分享链接** | 支持夸克直链（`https://pan.quark.cn/s/xxxxxxxxxx`）和中转链接（非夸克域名，访问后会跳转到夸克链接） |
-| **运行模式** | **追更模式**：只保存当天更新的文件，旧文件自动清理，适合追剧/追番；**全存模式**：下载链接内所有文件到独立子文件夹，适合一次性归档资源 |
+| **运行模式** | **追更模式**：只保存最近更新的文件，优先按 PotPlayer 播放进度在看到 80% 后智能删除；未启用 PotPlayer 时按“追更保留天数”自动清理旧文件，适合追剧/追番；**全存模式**：下载链接内所有文件到独立子文件夹，适合一次性归档资源 |
 | **更新星期** | 勾选哪几天运行此任务。例如只勾「周五周六周日」适合只在周末更新的剧集。**全不勾选等同于每天都运行** |
 
 #### 进阶配置（点击「▶ 进阶选项」展开）
@@ -185,7 +183,7 @@ Cookie 是程序访问你夸克网盘账号的凭证，获取方法：
 2026-03-02-某纪录片-第1集.mp4
 ```
 
-程序每天自动清理**前一天**的文件，只保留最新下载的内容，避免占用过多磁盘空间。
+追更模式默认只保留最近更新的内容。若已启用 PotPlayer 并开启“记忆播放进度”，视频看到 80% 后会自动清理；如果不想安装 PotPlayer，则按“追更保留天数”自动清理旧文件，避免占用过多磁盘空间。
 
 ### 📦 全存模式
 
@@ -241,7 +239,7 @@ docker cp 容器名:/app/data/quark_config.json ./quark_config.json
 <details>
 <summary><b>Q: Cookie 过期了怎么办？</b></summary>
 
-Cookie 通常 30 天左右过期。过期后软件日志会提示验证失败，重新在浏览器复制最新 Cookie，粘贴到设置页保存即可。
+Cookie 过期后，优先重新点击「一键获取 Cookie」扫码登录即可；也可以手动粘贴新的 Cookie 后再保存。
 </details>
 
 <details>
@@ -288,7 +286,7 @@ Cookie 通常 30 天左右过期。过期后软件日志会提示验证失败，
 | **适用场景** | 连载追剧/追番，只关心最新更新 | 一次性归档整个资源包 |
 | **保存位置** | 下载目录根目录 | 下载目录 / 任务名称 / 子文件夹 |
 | **文件命名** | `日期-任务名-原文件名` | 原文件名（不加日期前缀） |
-| **自动清理** | ✅ 每天清理前一天文件 | ❌ 不清理，保留所有文件 |
+| **自动清理** | ✅ 优先按 PotPlayer 播放进度 80% 智能删除；未启用 PotPlayer 时按“追更保留天数”清理旧文件 | ❌ 不清理，保留所有文件 |
 | **检测范围** | 只检测当天新增文件 | 检测链接内所有文件 |
 
 </details>
