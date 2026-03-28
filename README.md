@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://download.script.cool/latest/QuarkAutoDownloader-latest.exe)
 
-<img src="https://download.script.cool/screenshots/dashboard.png" width="700" alt="追更宝监控面板截图">
+<img src="https://download.script.cool/screenshots/dashboard.png?v=20260329-1" width="700" alt="追更宝监控面板截图">
 
 </div>
 
@@ -61,11 +61,11 @@
 
 | 监控面板 | 任务管理 |
 |----------|----------|
-| ![追更宝监控面板](https://download.script.cool/screenshots/dashboard.png) | ![追更宝任务管理](https://download.script.cool/screenshots/tasks.png) |
+| ![追更宝监控面板](https://download.script.cool/screenshots/dashboard.png?v=20260329-1) | ![追更宝任务管理](https://download.script.cool/screenshots/tasks.png?v=20260329-1) |
 
 | 设置 | 关于 |
 |------|------|
-| ![追更宝设置](https://download.script.cool/screenshots/settings.png) | ![追更宝关于](https://download.script.cool/screenshots/about.png) |
+| ![追更宝设置](https://download.script.cool/screenshots/settings.png?v=20260329-1) | ![追更宝关于](https://download.script.cool/screenshots/about.png?v=20260329-1) |
 
 ---
 
