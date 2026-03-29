@@ -5,11 +5,11 @@
 **夸克网盘自动追更下载工具，自动监测分享链接更新并下载到本地**
 
 [![官网](https://img.shields.io/badge/官网-立即访问-2563eb?style=for-the-badge)](https://quark.bacon123.eu.org/)
-[![下载](https://img.shields.io/badge/下载-Windows-orange?style=for-the-badge&logo=cloudflare)](https://download.script.cool/latest/QuarkAutoDownloader-latest.exe)
+[![下载](https://img.shields.io/badge/下载-Windows-orange?style=for-the-badge&logo=cloudflare)](https://download.sanpin.ltd/latest/QuarkAutoDownloader-latest.exe)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://download.script.cool/latest/QuarkAutoDownloader-latest.exe)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://download.sanpin.ltd/latest/QuarkAutoDownloader-latest.exe)
 
-<img src="https://download.script.cool/screenshots/dashboard.png?v=20260329-1" width="700" alt="追更宝监控面板截图">
+<img src="./screenshots/监控面板.png" width="700" alt="追更宝监控面板截图">
 
 </div>
 
@@ -45,7 +45,11 @@
 
 ## 📥 下载安装
 
-直接下载最新版：[QuarkAutoDownloader-latest.exe](https://download.script.cool/latest/QuarkAutoDownloader-latest.exe)，双击即可运行，**无需安装任何环境**。
+直接下载最新版：[QuarkAutoDownloader-latest.exe](https://download.sanpin.ltd/latest/QuarkAutoDownloader-latest.exe)，双击即可运行，**无需安装任何环境**。
+
+> 💡 从安装版开始，正式发布建议优先使用“安装器 + 固定安装目录”模式：
+> 默认安装到 `%LOCALAPPDATA%\Programs\QuarkAutoDownloader\QuarkAutoDownloader.exe`，
+> 这样开机自启、桌面快捷方式和后续自动更新会比手动移动单文件 exe 更稳定。
 
 > 🌐 也可从官网获取最新版与更新说明（免翻墙，下载速度通常更快）：https://quark.bacon123.eu.org/
 >
@@ -57,15 +61,15 @@
 
 ## 📸 软件截图
 
-> README 展示优先使用 R2 自定义域名固定截图链接；仓库内 `screenshots/` 继续保留同版素材备份，方便后续替换与校对。
+> GitHub README 为保证稳定显示，优先使用仓库内 `screenshots/` 图片；软件下载和更新页仍继续走官网与 R2 自定义域名。
 
 | 监控面板 | 任务管理 |
 |----------|----------|
-| ![追更宝监控面板](https://download.script.cool/screenshots/dashboard.png?v=20260329-1) | ![追更宝任务管理](https://download.script.cool/screenshots/tasks.png?v=20260329-1) |
+| ![追更宝监控面板](./screenshots/监控面板.png) | ![追更宝任务管理](./screenshots/任务管理.png) |
 
 | 设置 | 关于 |
 |------|------|
-| ![追更宝设置](https://download.script.cool/screenshots/settings.png?v=20260329-1) | ![追更宝关于](https://download.script.cool/screenshots/about.png?v=20260329-1) |
+| ![追更宝设置](./screenshots/设置.png) | ![追更宝关于](./screenshots/关于.png) |
 
 ---
 
